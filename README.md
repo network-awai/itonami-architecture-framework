@@ -1,4 +1,4 @@
-# Etzhayyim Architecture Framework
+# Itonami Architecture Framework
 
 EAF is an incidence-first, data-centric architecture framework. It applies the
 fit-for-purpose view discipline of DoDAF 2.02 to one canonical incidence graph,
@@ -29,7 +29,7 @@ The shared vocabulary is in [`resources/eaf/ontology.edn`](resources/eaf/ontolog
 ## Example
 
 ```clojure
-(require '[etzhayyim.architecture-framework.core :as eaf])
+(require '[itonami.architecture-framework.core :as eaf])
 
 (def architecture
   {:eaf/version 1

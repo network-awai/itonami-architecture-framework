@@ -1,4 +1,4 @@
-(ns etzhayyim.architecture-framework.core
+(ns itonami.architecture-framework.core
   "Incidence-first architecture data, individual construction, and views.
 
   IDs locate incidences. They do not establish individual equality. An

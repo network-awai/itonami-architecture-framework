@@ -1,6 +1,6 @@
-(ns etzhayyim.architecture-framework.core-test
+(ns itonami.architecture-framework.core-test
   (:require [kotoba.test :refer [deftest is testing]]
-            [etzhayyim.architecture-framework.core :as eaf]))
+            [itonami.architecture-framework.core :as eaf]))
 
 (defn ep [target role]
   {:endpoint/incidence target
@@ -61,7 +61,7 @@
                [(ep :alice-person :identifier/subject)
                 (ep :controller :identifier/controller)
                 (ep :vm :identifier/verification-method)]
-               {:identifier/value "did:etzhayyim:bafyexample"})
+               {:identifier/value "did:itonami:bafyexample"})
          :challenge (node :challenge :eaf/challenge)
          :proof (node :proof :eaf/proof)
          :authn
